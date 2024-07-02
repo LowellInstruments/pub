@@ -10,6 +10,7 @@ Feedback on this procedure is welcome.
 
     Step 0: Put the tool b_y.sh in your DDH manually, via SCP or via DWService.
         Get it by doing:
+        $ su pi
         $ wget https://raw.githubusercontent.com/LowellInstruments/pub/main/y2g/b_y.sh
 
     Step 1: On a DDH command terminal, move the tool to /tmp by doing:
