@@ -10,7 +10,6 @@ Feedback on this procedure is welcome.
 
     Step 0: Put the tool b_y.sh in your DDH manually, via SCP or via DWService.
         Get it by doing:
-        $ su pi
         $ wget https://raw.githubusercontent.com/LowellInstruments/pub/main/y2g/b_y.sh
 
     Step 1: On a DDH command terminal, move the tool to /tmp by doing:
@@ -21,6 +20,7 @@ Feedback on this procedure is welcome.
 
     Step 3: Install the green boat version by doing:
         $ cd /home/pi/li/ddt && ./dt_install_all.sh
+        (this could take ~20 minutes depending on prior installations)
 
     Step 4: Convert all_macs.yaml to all_macs.toml.
         The format is very easy, just mind the quotes.
@@ -33,6 +33,7 @@ Feedback on this procedure is welcome.
     Step 5-1/2: Reboot the DDH
 
     Step 6: Run DDC by doing:
+        $ su pi
         $ ddc
         Set USB GPS puck option (2) if needed.
         Check for issues (i) and correct any.
