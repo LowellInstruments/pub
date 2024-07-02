@@ -30,6 +30,8 @@ Feedback on this procedure is welcome.
     Step 5: Complete the [credentials] section on your DDH settings file.
         $ nano /home/pi/li/ddh/settings/config.toml
 
+    Step 5-1/2: Reboot the DDH
+
     Step 6: Run DDC by doing:
         $ ddc
         Set USB GPS puck option (2) if needed.
