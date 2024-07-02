@@ -48,5 +48,6 @@ Feedback on this procedure is welcome.
 
     Step 9: Run DDC by doing:
         $ ddc
+        Set the crontab (option 3)
 
     Step 10: Wait for DDH to run, and verify operation.
