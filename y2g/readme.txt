@@ -32,9 +32,8 @@ Feedback on this procedure is welcome.
 
     Step 7: Reboot the DDH
 
-    Step 8: Run DDC by doing:
-        $ su pi
-        $ ddc
+    Step 8: Run DDC by clicking its icon on the desktop:
+        Don't run ddc from command line, it could run the previous version. We will fix this soon.
         Set USB GPS puck option (2) if needed.
         Check for issues (i) and correct any.
         Optional: set test mode (7) so AWS uploads are prepended the label "testfile_".
