@@ -16,6 +16,7 @@ Feedback on this procedure is welcome.
         $ chmod +x /tmp/b_y.sh && /tmp/b_y.sh
 
     Step 3: Install the green boat version by doing:
+        $ rm -rf /home/pi/li/ddt; git clone https://github.com/lowellinstruments/ddt.git -b toml
         $ cd /home/pi/li/ddt && ./dt_install_all.sh
         (this could take ~20 minutes depending on prior installations)
 
