@@ -5,8 +5,8 @@ We created a tool that:
     - it backs up any old "Yellow boat" version (step 2).
     - it gets the code for the new "Green Boat" version (step 3).
 You only need to do this the first time you update a boat.
-Lowell Instruments staff can obviously support you through this procedure.
-Feedback on this procedure is welcome.
+Lowell Instruments staff can support you through this procedure during the first tests.
+Any feedback on this procedure is welcome.
 
     Step 1: Put the tool b_y.sh in your DDH manually, via SCP or via DWService.
         Get it by doing on a DDH terminal:
