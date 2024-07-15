@@ -26,4 +26,4 @@ killall main_dds_controller
 killall main_dds
 
 
-echo "backup_yellow done, now run $FOL_LI/ddt/dt_install_all.sh"
+echo "backup_yellow done, now proceed to next step in the README.md"
