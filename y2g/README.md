@@ -32,6 +32,7 @@ cd /home/pi/li/ddt && ./dt_install_all.sh
 ```
 Let's copy any existing logger files to the new installation:
 ```console
+mkdir -p /home/pi/li/ddh/dl_files;
 cp -r /home/pi/li/ddh_yellow/dl_files/*-* /home/pi/li/ddh/dl_files/
 ```
 
